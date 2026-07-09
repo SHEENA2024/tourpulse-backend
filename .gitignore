@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+.env
+set.env
+.env.*
+
+# Local app data
+*.db
+*.sqlite3
+instance/
+
+# Models and artifacts
+models/
+*.pkl
+*.bin
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# OS/editor
+.DS_Store
+.vscode/
